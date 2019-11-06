@@ -1,6 +1,6 @@
 <template>
   <div class="qr-container">
-    <vue-qr logo-src="/heart.jpg" :logo-scale="1" :text="text" :size="100" :margin="0" :dot-scale="1" :correct-level="3"/>
+    <vue-qr logo-src="heart.jpg" :logo-scale="1" :text="text" :size="100" :margin="0" :dot-scale="1" :correct-level="3"/>
     <div v-if="param" class="qr-name">
       <span v-for="p in params" :key="p">
         {{ p }}
